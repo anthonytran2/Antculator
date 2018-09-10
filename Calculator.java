@@ -26,7 +26,7 @@ public class Calculator extends Expr implements ActionListener, KeyListener {
       frame.setResizable(false);
       frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
       frame.setSize(new Dimension(320, 300));
-      frame.setTitle("Calculator");
+      frame.setTitle("Antculator");
       frame.setLayout(new BorderLayout());
       frame.setLocationRelativeTo(null);
       //North
@@ -132,6 +132,12 @@ public class Calculator extends Expr implements ActionListener, KeyListener {
         //(1/X)
         if(pressed.equals("1/x") && display.length() > 0){
             display = "" + eval(infixtopostfix("1 / " + display));
+            txt.setText(display);
+        }
+        //(%)
+        if(pressed.equals("%") && display.length() > 0){
+            double numValue = Double.parseDouble(display);
+            display = "" + numValue / 100;
             txt.setText(display);
         }
         //(+/-)
