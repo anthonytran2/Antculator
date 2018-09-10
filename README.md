@@ -1,6 +1,6 @@
 # Antculator
 
-## Description
+### Description
 A simple calculator written in Java.
 
 ![alt text](https://github.com/anthonytran2/Antculator/blob/master/Antculator%20image.PNG)
