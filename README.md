@@ -17,3 +17,6 @@ A simple calculator written in Java.
 
 ## Run
 Run the executable or Jar file.
+
+- EXE: https://github.com/anthonytran2/Antculator/blob/master/Calculator.exe
+- JAR: https://github.com/anthonytran2/Antculator/blob/master/Calculator.jar
